@@ -25,6 +25,13 @@ function App() {
     window.open(" https://www.amazon.com", "_blank");
   }
 
+  function workcheck() {
+    window.open(
+      " https://www.paycomonline.net/v4/ee/web.php/app/login",
+      "_blank"
+    );
+  }
+
   return (
     <div className="container">
       <Heading />
@@ -33,6 +40,8 @@ function App() {
       <button onClick={facebook}>Facebook</button>
       <button onClick={rahs}>Ridgway High</button>
       <button onClick={amazon}>Amazon</button>
+      <button onClick={workcheck}>Nancy's Work</button>
+
       <h3>What did you need today?</h3>
     </div>
   );
