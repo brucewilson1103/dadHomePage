@@ -27,8 +27,8 @@ function App() {
 
   return (
     <div className="container">
-      <h1>{time}</h1>
       <Heading />
+      <h1>{time}</h1>
 
       <button onClick={facebook}>Facebook</button>
       <button onClick={rahs}>Ridgway High</button>
