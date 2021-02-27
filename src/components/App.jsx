@@ -29,11 +29,11 @@ function App() {
     <div className="container">
       <h1>{time}</h1>
       <Heading />
-      <h3>What did you need today?</h3>
 
       <button onClick={facebook}>Facebook</button>
       <button onClick={rahs}>Ridgway High</button>
       <button onClick={amazon}>Amazon</button>
+      <h3>What did you need today?</h3>
     </div>
   );
 }

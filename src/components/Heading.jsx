@@ -11,10 +11,10 @@ function Heading() {
 
   if (currentTime < 12) {
     greeting = "Good Morning Willy";
-    customStyle.color = "red";
+    customStyle.color = "white";
   } else if (currentTime < 18) {
     greeting = "Good Afternoon Willy";
-    customStyle.color = "green";
+    customStyle.color = "yellow";
   } else {
     greeting = "Good Night Willy";
     customStyle.color = "black";
